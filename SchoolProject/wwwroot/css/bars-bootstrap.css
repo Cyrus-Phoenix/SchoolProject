@@ -1,0 +1,28 @@
+﻿/* FÖR DEN UTAN BOOTSTRAP  */
+
+
+/* Body Baseline */
+body {
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    text-align: left;
+    background-color: #212529;
+}
+
+/* Columns */
+.col { flex-basis: 0; flex-grow: 1; max-width: 100%; }
+
+
+/* Flex */
+
+.d-flex { display: flex !important; }
+.d-none { display: none !important; }
+.flex-row { flex-direction: row !important; }
+
+@media(min-width: 768px) 
+{
+    /* Display */
+    .d-md-block{display: block !important; }
+}
